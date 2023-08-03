@@ -22,7 +22,7 @@ html{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 85%;
     margin: auto;
     height: 80px;
 }
@@ -72,6 +72,10 @@ html{
     padding: 10px;
     border-radius: 0 100px 100px 120px;
     cursor: pointer;
+}
+
+.download a {
+    width: 100%;
 }
 
 .download:hover{
@@ -223,7 +227,7 @@ html{
 
 .img-div img{
     width: 100%;
-    height: 240px;
+    height: 80%;
 }
 
 .p-div{
@@ -682,7 +686,7 @@ textarea{
     display: none;
 }
 
-@media (780px <= width < 791px){
+@media (780px <= width < 820px){
     *{ 
         margin: 0;
         padding: 0;
@@ -757,6 +761,9 @@ textarea{
         cursor: pointer;
     }
     
+    .download a {
+        width: 100%;
+    }
     .download:hover{
         border: 2px solid #f5f5f5;
     }
@@ -907,7 +914,7 @@ textarea{
     
     .img-div img{
         width: 60%;
-        height: 240px;
+        height: 50%;
         margin-bottom: 10px;
     }
     
@@ -1374,7 +1381,7 @@ textarea{
 
 }
 
-@media (791px <= width < 851px){
+@media (820px <= width < 851px){
     *{ 
         margin: 0;
         padding: 0;
@@ -1599,7 +1606,7 @@ textarea{
     
     .img-div img{
         width: 60%;
-        height: 240px;
+        height: 50%;
         margin-bottom: 10px;
     }
     
@@ -2067,7 +2074,7 @@ textarea{
 }
 
 
-@media (851px <= width < 1280px){
+@media (851px <= width < 1480px){
     *{ 
         margin: 0;
         padding: 0;
@@ -2142,18 +2149,22 @@ textarea{
         cursor: pointer;
     }
     
+    .download a {
+        width: 100%;
+    }
     .download:hover{
         border: 2px solid #f5f5f5;
     }
     
     
     .div-button button{
-        margin-right: 3px;
+        margin-right: 2px;
         background-color: white;
     }
     
     .div-button button a{
         color: rgb(3, 90, 84);
+        width: 100%;
     }
     
     .download-icon{
@@ -2291,7 +2302,7 @@ textarea{
     
     .img-div img{
         width: 60%;
-        height: 240px;
+        height: 50%;
         margin-bottom: 10px;
     }
     
@@ -3519,5 +3530,9 @@ textarea{
 
     .nav-item-2 ul li a{
         color: rgb(3, 90, 84);
+    }
+
+    .download a {
+        width: 100%;
     }
 }
