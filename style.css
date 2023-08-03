@@ -2074,7 +2074,7 @@ textarea{
 }
 
 
-@media (851px <= width < 1480px){
+@media (851px <= width < 1280px){
     *{ 
         margin: 0;
         padding: 0;
