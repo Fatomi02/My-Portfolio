@@ -9,13 +9,20 @@ function show() {
     }
 click.addEventListener('click', show)
 
-x.addEventListener('click', function()  {
+function hide() {
     click.style.visibility = 'visible';
     x.style.display = 'none';
     document.querySelector('.nav-item-2').style.display = 'none';
     document.querySelector('.nav-item-3').style.display = '';
-})
+}
 
+x.addEventListener('click', hide);
+
+
+let list = document.querySelectorAll('.nav-list')
+list.forEach((item) => {
+    item.addEventListener('click', hide);
+})
 
 
 
