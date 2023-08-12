@@ -2867,6 +2867,49 @@
     .nav-item{
         display: none;
     }
+
+    .nav-item-2{
+        width: 100%;
+        background-color: #f5f5f5;
+        margin-top: 10px;
+        position: absolute;
+        display: none;
+        animation: slide 1s;
+    }
+
+    @keyframes slide{
+        0%{
+            opacity: 0;
+            transform: translate3d(-40%, 0, 0);
+        }
+        100%{
+            opacity: 1;
+            transform: translateZ(0);
+        }
+    }
+    .nav-item-3{
+        width: 100%;
+        background-color: #f5f5f5;
+        margin-top: 10px;
+        position: absolute;
+        display: none;
+    }
+    .nav-item-2 ul li{
+        padding: 10px;
+        color: black;
+    }
+
+    .nav-item-2 ul li a{
+        color: rgb(3, 90, 84);
+    }
+
+    .download a {
+        width: 100%;
+    }
+
+    .nav-item-2 .download{
+        width: 85%;
+    }
     #toggle-button{
         display: inline-block;
         margin-right: 10px;
@@ -3543,46 +3586,5 @@
         margin-top: 40px;
     }
 
-    .nav-item-2{
-        width: 100%;
-        background-color: #f5f5f5;
-        margin-top: 10px;
-        position: absolute;
-        display: none;
-        animation: slide 1s;
-    }
 
-    @keyframes slide{
-        0%{
-            opacity: 0;
-            transform: translate3d(-40%, 0, 0);
-        }
-        100%{
-            opacity: 1;
-            transform: translateZ(0);
-        }
-    }
-    .nav-item-3{
-        width: 100%;
-        background-color: #f5f5f5;
-        margin-top: 10px;
-        position: absolute;
-        display: none;
-    }
-    .nav-item-2 ul li{
-        padding: 10px;
-        color: black;
-    }
-
-    .nav-item-2 ul li a{
-        color: rgb(3, 90, 84);
-    }
-
-    .download a {
-        width: 100%;
-    }
-
-    .nav-item-2 .download{
-        width: 85%;
-    }
 }
